@@ -1,0 +1,111 @@
+/* Base Style */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: size 1em; /* 20px on most screens */
+}
+
+	.banner {
+    background-color: #E7F1FB;
+  }
+
+  img {
+    width: 5%; /* respnsive images */
+    margin-left: 4%;
+    margin-bottom: 0%;
+    margin-top: 1%;
+}
+
+button {
+    margin-left: 10%;
+    margin-bottom: 10%;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: none;
+    color:black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+    button:hover {
+    background-color: #c4e1fe;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.beach {
+    width: 100%;
+}
+
+header {
+    height: 200%;
+    color: #C4C4C4;
+    margin-left: 40%;
+    margin-bottom: 0%;
+    margin-top: 10%;}
+
+
+    .sand {
+        vertical-align: middle;
+        width: 400%;
+        margin-left: 50%;
+        margin-top: -10%;
+      padding: 15px; 
+    }
+    
+    p {
+        display: inline;
+        margin-left: 2%;
+    }
+
+    
+
+    
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #454959;
+    font-weight: 300;
+    line-height: 1.5; /* the default is 1.2 */
+    }
+
+
+
+    footer {
+        position:bottom;
+        bottom:0;
+        width:100%;
+        height:60px;   /* Height of the footer */
+        background:#E9EAE0;
+     }
+
+     .insta {
+        width: 2%;
+        margin-left: 60%;
+    }
